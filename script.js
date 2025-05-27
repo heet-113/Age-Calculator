@@ -1,7 +1,7 @@
+const current_date = new Date();
+
 let btn = document.getElementById("submit-btn");
 let age_display = document.getElementById("age-display");
-
-const current_date = new Date();
 
 btn.addEventListener("click", () => {
     const input_date = document.getElementById("date-input").value;
